@@ -1,0 +1,1 @@
+Selenium::WebDriver.logger.ignore(:capabilities)
