@@ -3,11 +3,23 @@ en:
     placeholders:
       quote:
         name: Name of your quote
+      line_item_date:
+        date: Date
+      line_item:
+        name: Name of your item
+        quantity: 1
+        unit_price: $100.00
+        description: Description (optional)
     labels:
       quote:
         name: Name
       line_item_date:
         date: Date
+      line_item:
+        name: Name
+        quantity: Quantity
+        unit_price: Unit price
+        description: Description
 
   helpers:
     submit:
@@ -17,3 +29,6 @@ en:
       line_item_date:
         create: Create date
         update: Update date
+      line_item:
+        create: Create item
+        update: Update item
